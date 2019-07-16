@@ -1,0 +1,56 @@
+.container {
+    background-color: #7a1920;
+    max-width: 432px;
+    padding: 20px;
+}
+
+.App {
+    /* max-height: 450px; */
+    display: flex;
+    flex-direction: column;
+    /* background-color: #7a1920; */
+    /* flex-wrap: wrap; */
+}
+
+.buttons-container {
+    width: 472px;
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+.specials {
+    border: 1px solid green;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.numbers {
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.numbers>last-child {
+    border: 1px solid orange;
+}
+/* .numbers-specials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid red;
+} */
+/* .specials .numbers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
+.numbers {
+    color: red;
+}
+
+button {
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    margin: 10px 5px;
+    color: white;
+    background-color: 
+}
