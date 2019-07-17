@@ -23,7 +23,7 @@ function App() {
       {/* <h1>Test</h1> */}
       <Logo />
       <div className="App">
-        <Display />
+        <Display number={0}/>
       <div className="buttons-container">
           <div className="numbers-specials">
             <Specials className="specials"/>

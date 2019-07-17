@@ -11,12 +11,17 @@ const Numbers = () => {
   // const [numberState, setNumberState] = useState(numbers.map(number=>Number(number)*Number(number))); // Example of how you might change the state of each number in the numbers array
   // console.log(numButtonState);
 
+  // const [buttonNumbers, setButtonNumbers] = useState(numbers);
+
   return (
-    <div >
+    <div className="numbers">
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
-       <div className="numbers">{numberState.map((number)=>NumberButton(number))}</div>
+       {/* <div className="numbers">{numberState.map((number)=>NumberButton(number))}</div> */}
+      {numberState.map(number => {
+      return <NumberButton text={number}/>
+      })}
     </div>
   );
 };
