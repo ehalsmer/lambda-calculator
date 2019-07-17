@@ -9,7 +9,7 @@ const Numbers = () => {
   // STEP 2 - add the imported data to state
   const [numberState, setNumberState] = useState(numbers);
   // const [numberState, setNumberState] = useState(numbers.map(number=>Number(number)*Number(number))); // Example of how you might change the state of each number in the numbers array
-
+  // console.log(numButtonState);
 
   return (
     <div >

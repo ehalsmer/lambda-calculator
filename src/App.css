@@ -7,9 +7,9 @@
 .display {
     background-color: black;
     color: white;
-    height: 4.2rem;
+    height: 4.3rem;
     margin: 10px 0px;
-    padding: 25px 7px 0px 0px;
+    padding: 25px 20px 0px 0px;
     border-radius: 50px;
     font-size: 2rem;
     text-align: right;
@@ -72,6 +72,6 @@ button:active {
 }
 .numbers>div:nth-of-type(11)>button {
     position: absolute;
-    left: 265px;
+    left: 273px;
 
 }
